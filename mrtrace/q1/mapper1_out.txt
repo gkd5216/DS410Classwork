@@ -1,0 +1,9 @@
+"Once"	1
+"upon"	3
+"a"	3
+"time"	3
+"there"	2
+"was"	2
+"a"	2
+"big"	2
+"data"	1

@@ -1,0 +1,17 @@
+"the"	2
+"Data"	2
+"lived"	4
+"with"	4
+"the"	4
+"data"	4
+"brothers"	5
+"and"	5
+"the"	5
+"Data"	5
+"sisters"	5
+"in"	4
+"The"	4
+"Cloud"	4
+"there"	4
+"a"	2
+"a"	2

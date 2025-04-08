@@ -1,0 +1,35 @@
+Name:
+Collaborators:
+
+--- Commands for #4: ---
+hdfs dfs -mkdir /user/gkd5216/myhdfshwdata/
+
+--- Commands for #5: ---
+cd words
+hdfs dfs -put part-00000 part-00001 part-00002 part-00003 /user/gkd5216/myhdfshwdata
+
+--- Commands for #6: ---
+hdfs dfs -ls /user/gkd5216
+
+
+--- Commands for #7: ---
+ssh gkd5216@e5-cse-trantor01.cse.psu.edu
+ls /home/gkd5216
+
+--- Commands for #8: ---
+cd ds410hw
+hdfs dfs -ls /user/gkd5216/myhdfshwdata
+
+--- Commands for #9: ---
+hdfs dfs -mkdir /user/gkd5216/words
+hdfs dfs -mv /user/gkd5216/myhdfshwdata/* /user/gkd5216/words
+
+--- Commands for #10: ---
+hdfs dfs -rm -r /user/gkd5216/myhdfshwdata
+
+--- Commands for #11: ---
+hdfs dfs -tail /user/gkd5216/words/part-00002
+
+--- Commands for #12: ---
+hdfs dfs -stat "filesize in bytes:%b replication information:%r user name of the file owner:%u modification date:%y" /user/gkd5216/words/part-00001
+

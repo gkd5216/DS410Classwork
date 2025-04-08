@@ -1,0 +1,3 @@
+hdfs dfs -rm -r /user/gkd5216/words
+
+python3 q2.py -r hadoop --hadoop-streaming-jar /home2/hadoop-3.4.0/share/hadoop/tools/lib/hadoop-streaming-3.4.0.jar --jobconf mapreduce.job.reduces=51 hdfs:///datasets/cities --output-dir hdfs:///user/gkd5216/words --no-output
