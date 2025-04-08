@@ -1,0 +1,9 @@
+
+
+
+
+cd words
+hdfs dfs -put part-00000
+hdfs dfs -put part-00001
+hdfs dfs -put part-00002
+hdfs dfs -put part-00003

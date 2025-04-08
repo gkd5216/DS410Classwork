@@ -1,0 +1,7 @@
+CustomerID	Country
+17850	United Kingdom
+17850	United Kingdom
+12539	Spain
+12539	Spain
+12480	Germany
+12480	Germany
